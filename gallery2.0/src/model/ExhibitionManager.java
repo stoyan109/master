@@ -193,7 +193,7 @@ public class ExhibitionManager {
 
     }
 
-    // Custom sorting method (Insertion Sort)
+    //  (Insertion Sort)
 
     public List<Artwork> sortByDate() {
 
