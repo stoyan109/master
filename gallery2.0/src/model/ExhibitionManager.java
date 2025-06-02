@@ -12,8 +12,8 @@ import java.util.Map;
 public class ExhibitionManager {
     private Map<String, List<Artwork>> artworksByGenre;
     private Map<String, List<Artwork>> artworksByAuthor;
-    private List<Artwork> allArtworks;
-    private List<Artist> artists;
+    private ArrayList<Artwork> allArtworks;
+    private ArrayList<Artist> artists;
     public ExhibitionManager() {
         artworksByGenre = new HashMap<>();
         artworksByAuthor = new HashMap<>();
