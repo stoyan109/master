@@ -29,7 +29,6 @@ public class CustomHashMap<K, V> {
         if (key == null) {
 
             throw new IllegalArgumentException("Key cannot be null");
-
         }
 
         if (size >= table.length * LOAD_FACTOR) {
