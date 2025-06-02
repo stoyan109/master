@@ -49,27 +49,22 @@ public class Artist {
         if (artwork == null) {
             throw new IllegalArgumentException("Artwork cannot be null");
         }
-
         if (artworks.contains(artwork)) {
             throw new IllegalArgumentException("This artwork is already associated with the artist");
         }
         artworks.add(artwork);
     }
-
     public void removeArtwork(Artwork artwork) {
         if (!artworks.remove(artwork)) {
             throw new IllegalArgumentException("Artwork not found in artist's collection");
         }
-
     }
 
     public boolean equals(Artist other) {
         if (other == null) return false;
         return this.name.equals(other.name) && 
                this.nationality.equals(other.nationality);
-
     }
-
     public String toString() {
         return String.format("%s (%s)", name, nationality);
     }
