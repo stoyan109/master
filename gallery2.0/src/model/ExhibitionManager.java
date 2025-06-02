@@ -103,7 +103,13 @@ public class ExhibitionManager {
         }
         return result;
     }
+<<<<<<< HEAD
     // Custom sorting method (Insertion Sort)
+=======
+
+    //  (Insertion Sort)
+
+>>>>>>> branch 'master' of https://github.com/stoyan109/master.git
     public List<Artwork> sortByDate() {
         List<Artwork> sorted = new ArrayList<>(allArtworks);
         for (int i = 1; i < sorted.size(); i++) {
