@@ -177,6 +177,8 @@ public class CustomArrayList<T> implements Iterable<T> {
         };
 
     }
+    
+    
     @Override
 
     public String toString() {
