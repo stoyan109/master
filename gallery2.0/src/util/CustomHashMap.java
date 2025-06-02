@@ -35,7 +35,6 @@ public class CustomHashMap<K, V> {
         if (size >= table.length * LOAD_FACTOR) {
 
             resize();
-
         }
 
         int index = getIndex(key);
